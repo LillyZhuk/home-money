@@ -5,4 +5,5 @@ export interface AppEvent {
   category: number;
   date: string;
   description: string;
+  catName?: string;
 }
